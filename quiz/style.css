@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  position: relative;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px;
+  background-color: #f3eafc;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.quiz-container {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 1.3rem;
+  width: min(50vw, 40rem);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-header {
+  padding: 4rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+ul li {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+button {
+  background-color: blueviolet;
+  color: white;
+  padding: 1rem 0;
+  width: 100%;
+  display: block;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+input {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+/* - Font sizes (px) 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+- Spacing system (px) 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/

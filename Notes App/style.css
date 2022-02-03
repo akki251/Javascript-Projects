@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 72.5%;
+  position: relative;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px;
+  background-color: skyblue;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+button {
+  cursor: pointer;
+}
+
+.note {
+  background-color: white;
+  height: 400px;
+  width: 400px;
+  margin: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.2);
+}
+
+.note .tools {
+  background-color: slategray;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.note .tools button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+.note .main {
+  width: 100%;
+  height: 100%;
+  font-size: 1.5rem;
+  /* background-color: red; */
+  padding: 2rem 1rem;
+  /* word-break: break-all; */
+  /* display: none; */
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 2rem 1rem;
+  font-family: inherit;
+  font-size: 1.5rem;
+  border: 2px dashed grey;
+
+}
+
+.note .hidden {
+  display: none;
+}
+
+.add {
+  margin: 2rem auto;
+  background-color: red;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  position: fixed;
+  right: 1rem;
+}
+
+/* - Font sizes (px) 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+- Spacing system (px) 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/

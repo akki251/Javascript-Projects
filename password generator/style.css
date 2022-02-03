@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  /* font-size: 62.5%; */
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px;
+  background-color: rebeccapurple;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.pw-container {
+  width: 400px;
+  background-color: rgb(44, 17, 71);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.pw-header {
+  padding: 1rem;
+}
+
+.pw {
+  background-color: rebeccapurple;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 2rem;
+  padding: 1rem;
+  font-size: 1rem;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.pw button {
+  position: absolute;
+  background-color: white;
+  color: rebeccapurple;
+  font-family: inherit;
+  right: 0;
+  border: none;
+  padding: 0.3rem;
+  transform: translate(0%, -20%);
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.pw:hover button {
+  opacity: 1;
+}
+
+.pw-body {
+  padding: 0 1rem 1rem;
+}
+
+.form-control {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}
+
+.generate {
+  display: block;
+  background-color: rgb(243, 243, 43);
+  color: rebeccapurple;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: none;
+  font-family: inherit;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+/* - Font sizes (px) 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+- Spacing system (px) 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
